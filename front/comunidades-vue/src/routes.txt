@@ -1,0 +1,21 @@
+main:
+
+    / -> Dashboard (contiene navbar)
+
+    /comunidades (contiene navbar + sidebar)
+        '' -> Lista de comunidades
+        id/edit -> Editor de comunidad
+        create -> Crear comunidad
+        id/show -> Mostrar comunidad
+
+
+Main:
+    navbar
+    route-view
+
+Dashboard:
+
+Comunidades:
+
+    sidebar-comunidades
+    route-view
