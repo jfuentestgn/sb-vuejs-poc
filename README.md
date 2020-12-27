@@ -136,7 +136,44 @@ $ curl -s --request GET  --url http://localhost:8080/comunidades \
 ```
 
 
-
-
-
 ## Aplicación frontend - VueJS
+
+La aplicación frontend está localizada en la carpeta `front/comunidades-vue`.
+
+Para comenzar, entrar en este directorio y ejecutar `npm install` para que se
+instalen todas las dependencias de la aplicación. Eso creará un directorio `node_modules` con todas las dependencias
+
+### Ejecutar el frontal
+
+Una vez descargadas todas las dependencias es necesario lanzar la aplicación que actúa como servidor con la siguiente orden:
+
+```$ npm run serve```
+
+Esto construirá la aplicación y pasará a escuchar conexiones (está configurado el puerto **8081**)
+
+### Probar la aplicación
+
+Bastará con acceder con el navegador a la URL http://localhost:8081/ para que se cargue la aplicación y comencemos a probar.
+A partir de aquí, a medida que interactuemos con la aplicación veremos (<kbd>F12</kbd>) las interacciones con el backend
+
+## Parar las aplicaciones
+
+Para parar las dos aplicaciones basta con hacer <kbd>Ctrl</kbd> + <kbd>C</kbd> en cada terminal
+
+## Enlaces / Referencias
+
+### Spring Boot
+* https://spring.io/guides/gs/multi-module/
+* https://bezkoder.com/spring-boot-jwt-authentication/
+  
+### Spring + VueJS
+* https://bezkoder.com/spring-boot-vue-js-crud-example/
+* https://bezkoder.com/spring-boot-vue-js-authentication-jwt-spring-security/
+  
+### VueJS
+* https://bezkoder.com/jwt-vue-vuex-authentication/
+* https://vuex.vuejs.org/guide/actions.html
+* https://vuex.vuejs.org/guide/structure.html
+* https://router.vuejs.org/guide/advanced/navigation-guards.html
+* https://github.com/axios/axios
+
