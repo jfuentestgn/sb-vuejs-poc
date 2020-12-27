@@ -10,6 +10,10 @@ https://www.springboottutorial.com/spring-boot-vue-full-stack-crud-maven-applica
 
 https://bezkoder.com/spring-boot-vue-js-crud-example/
 
+https://bezkoder.com/spring-boot-jwt-authentication/
+
+https://bezkoder.com/spring-boot-vue-js-authentication-jwt-spring-security/
+
 https://dev.to/brunodrugowick/complete-crud-with-spring-boot-vue-js-axios-fg1
 
 https://grokonez.com/spring-framework/spring-data/spring-boot-vue-example-spring-data-jpa-rest-postgresql-crud-example
